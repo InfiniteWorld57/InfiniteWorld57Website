@@ -1,0 +1,812 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.container {
+    margin: 0px;
+}
+
+.container .title .title {
+    animation: title_animation 20s;
+    color: rgba(0, 0, 0, 255);
+    text-align: center;
+    font-size: 60px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
+}
+@keyframes title_animation {
+    0%, 100% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+        color: rgba(255, 255, 255, 0);
+    }
+}
+
+.container .welcome_animation {
+    animation: welcome_animation 20s;
+    background-color: rgba(0, 0, 0, 0);
+}
+@keyframes welcome_animation {
+    0% {
+        background-color: rgba(0, 0, 0, 255);
+    }
+    50% {
+        background-color: rgba(0, 0, 0, 255);
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.container .welcome_animation .title_0_div .title_0_animation {
+    animation: title_0_animation 20s;
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 60px;
+}
+@keyframes title_0_animation {
+    0% {
+        color: rgba(255, 255, 255, 0);
+    }
+    12.5% {
+        color: rgba(255, 255, 255, 255);
+    }
+    25% {
+        color: rgba(255, 255, 255, 0);
+    }
+}
+
+.container .welcome_animation .title_1_div {
+    animation: title_1_div 20s;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+}
+@keyframes title_1_div {
+    0%, 50% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    }
+    51% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(10.5, 10.5, 10.5), rgb(0, 0, 0));
+    }
+    51.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(11.55, 11.55, 11.55), rgb(0, 0, 0));
+    }
+    51.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(12.6, 12.6, 12.6), rgb(0, 0, 0));
+    }
+    51.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(13.65, 13.65, 13.65), rgb(0, 0, 0));
+    }
+    51.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(14.7, 14.7, 14.7), rgb(0, 0, 0));
+    }
+    51.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(15.75, 15.75, 15.75), rgb(0, 0, 0));
+    }
+    51.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(16.8, 16.8, 16.8), rgb(0, 0, 0));
+    }
+    51.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(17.85, 17.85, 17.85), rgb(0, 0, 0));
+    }
+    51.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(18.9, 18.9, 18.9), rgb(0, 0, 0));
+    }
+    51.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(19.95, 19.95, 19.95), rgb(0, 0, 0));
+    }
+    52% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(21, 21, 21), rgb(0, 0, 0));
+    }
+    52.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(22.05, 22.05, 22.05), rgb(0, 0, 0));
+    }
+    52.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(23.1, 23.1, 23.1), rgb(0, 0, 0));
+    }
+    52.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(24.15, 24.15, 24.15), rgb(0, 0, 0));
+    }
+    52.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(25.2, 25.2, 25.2), rgb(0, 0, 0));
+    }
+    52.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(26.25, 26.25, 26.25), rgb(0, 0, 0));
+    }
+    52.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(27.3, 27.3, 27.3), rgb(0, 0, 0));
+    }
+    52.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(28.35, 28.35, 28.35), rgb(0, 0, 0));
+    }
+    52.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(29.4, 29.4, 29.4), rgb(0, 0, 0));
+    }
+    52.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(30.45, 30.45, 30.45), rgb(0, 0, 0));
+    }
+    53% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(31.5, 31.5, 31.5), rgb(0, 0, 0));
+    }
+    53.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(32.55, 32.55, 32.55), rgb(0, 0, 0));
+    }
+    53.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(33.6, 33.6, 33.6), rgb(0, 0, 0));
+    }
+    53.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(34.65, 34.65, 34.65), rgb(0, 0, 0));
+    }
+    53.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(35.7, 35.7, 35.7), rgb(0, 0, 0));
+    }
+    53.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(36.75, 36.75, 36.75), rgb(0, 0, 0));
+    }
+    53.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(37.8, 37.8, 37.8), rgb(0, 0, 0));
+    }
+    53.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(38.85, 38.85, 38.85), rgb(0, 0, 0));
+    }
+    53.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(39.9, 39.9, 39.9), rgb(0, 0, 0));
+    }
+    53.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(40.95, 40.95, 40.95), rgb(0, 0, 0));
+    }
+    54% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(42, 42, 42), rgb(0, 0, 0));
+    }
+    54.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(43.05, 43.05, 43.05), rgb(0, 0, 0));
+    }
+    54.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(44.1, 44.1, 44.1), rgb(0, 0, 0));
+    }
+    54.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(45.15, 45.15, 45.15), rgb(0, 0, 0));
+    }
+    54.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(46.2, 46.2, 46.2), rgb(0, 0, 0));
+    }
+    54.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(47.25, 47.25, 47.25), rgb(0, 0, 0));
+    }
+    54.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(48.3, 48.3, 48.3), rgb(0, 0, 0));
+    }
+    54.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(49.35, 49.35, 49.35), rgb(0, 0, 0));
+    }
+    54.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(50.4, 50.4, 50.4), rgb(0, 0, 0));
+    }
+    54.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(51.45, 51.45, 51.45), rgb(0, 0, 0));
+    }
+    55% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(52.5, 52.5, 52.5), rgb(0, 0, 0));
+    }
+    55.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(53.55, 53.55, 53.55), rgb(0, 0, 0));
+    }
+    55.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(54.6, 54.6, 54.6), rgb(0, 0, 0));
+    }
+    55.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(55.65, 55.65, 55.65), rgb(0, 0, 0));
+    }
+    55.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(56.7, 56.7, 56.7), rgb(0, 0, 0));
+    }
+    55.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(57.75, 57.75, 57.75), rgb(0, 0, 0));
+    }
+    55.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(58.8, 58.8, 58.8), rgb(0, 0, 0));
+    }
+    55.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(59.85, 59.85, 59.85), rgb(0, 0, 0));
+    }
+    55.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(60.9, 60.9, 60.9), rgb(0, 0, 0));
+    }
+    55.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(61.95, 61.95, 61.95), rgb(0, 0, 0));
+    }
+    56% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(63, 63, 63), rgb(0, 0, 0));
+    }
+    56.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(64.05, 64.05, 64.05), rgb(0, 0, 0));
+    }
+    56.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(65.1, 65.1, 65.1), rgb(0, 0, 0));
+    }
+    56.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(66.15, 66.15, 66.15), rgb(0, 0, 0));
+    }
+    56.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(67.2, 67.2, 67.2), rgb(0, 0, 0));
+    }
+    56.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(68.25, 68.25, 68.25), rgb(0, 0, 0));
+    }
+    56.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(69.3, 69.3, 69.3), rgb(0, 0, 0));
+    }
+    56.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(70.35, 70.35, 70.35), rgb(0, 0, 0));
+    }
+    56.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(71.4, 71.4, 71.4), rgb(0, 0, 0));
+    }
+    56.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(72.45, 72.45, 72.45), rgb(0, 0, 0));
+    }
+    57% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(73.5, 73.5, 73.5), rgb(0, 0, 0));
+    }
+    57.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(74.55, 74.55, 74.55), rgb(0, 0, 0));
+    }
+    57.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(75.6, 75.6, 75.6), rgb(0, 0, 0));
+    }
+    57.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(76.65, 76.65, 76.65), rgb(0, 0, 0));
+    }
+    57.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(77.7, 77.7, 77.7), rgb(0, 0, 0));
+    }
+    57.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(78.75, 78.75, 78.75), rgb(0, 0, 0));
+    }
+    57.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(79.8, 79.8, 79.8), rgb(0, 0, 0));
+    }
+    57.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(80.85, 80.85, 80.85), rgb(0, 0, 0));
+    }
+    57.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(81.9, 81.9, 81.9), rgb(0, 0, 0));
+    }
+    57.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(82.95, 82.95, 82.95), rgb(0, 0, 0));
+    }
+    58% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(84, 84, 84), rgb(0, 0, 0));
+    }
+    58.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(85.05, 85.05, 85.05), rgb(0, 0, 0));
+    }
+    58.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(86.1, 86.1, 86.1), rgb(0, 0, 0));
+    }
+    58.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(87.15, 87.15, 87.15), rgb(0, 0, 0));
+    }
+    58.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(88.2, 88.2, 88.2), rgb(0, 0, 0));
+    }
+    58.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(89.25, 89.25, 89.25), rgb(0, 0, 0));
+    }
+    58.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(90.3, 90.3, 90.3), rgb(0, 0, 0));
+    }
+    58.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(91.35, 91.35, 91.35), rgb(0, 0, 0));
+    }
+    58.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(92.4, 92.4, 92.4), rgb(0, 0, 0));
+    }
+    58.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(93.45, 93.45, 93.45), rgb(0, 0, 0));
+    }
+    59% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(94.5, 94.5, 94.5), rgb(0, 0, 0));
+    }
+    59.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(95.55, 95.55, 95.55), rgb(0, 0, 0));
+    }
+    59.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(96.6, 96.6, 96.6), rgb(0, 0, 0));
+    }
+    59.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(97.65, 97.65, 97.65), rgb(0, 0, 0));
+    }
+    59.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(98.7, 98.7, 98.7), rgb(0, 0, 0));
+    }
+    59.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(99.75, 99.75, 99.75), rgb(0, 0, 0));
+    }
+    59.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(100.8, 100.8, 100.8), rgb(0, 0, 0));
+    }
+    59.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(101.85, 101.85, 101.85), rgb(0, 0, 0));
+    }
+    59.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(102.9, 102.9, 102.9), rgb(0, 0, 0));
+    }
+    59.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(103.95, 103.95, 103.95), rgb(0, 0, 0));
+    }
+    60% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(105, 105, 105), rgb(0, 0, 0));
+    }
+    60.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(106.05, 106.05, 106.05), rgb(0, 0, 0));
+    }
+    60.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(107.1, 107.1, 107.1), rgb(0, 0, 0));
+    }
+    60.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(108.15, 108.15, 108.15), rgb(0, 0, 0));
+    }
+    60.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(109.2, 109.2, 109.2), rgb(0, 0, 0));
+    }
+    60.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(110.25, 110.25, 110.25), rgb(0, 0, 0));
+    }
+    60.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(111.3, 111.3, 111.3), rgb(0, 0, 0));
+    }
+    60.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(112.35, 112.35, 112.35), rgb(0, 0, 0));
+    }
+    60.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(113.4, 113.4, 113.4), rgb(0, 0, 0));
+    }
+    60.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(114.45, 114.45, 114.45), rgb(0, 0, 0));
+    }
+    61% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(115.5, 115.5, 115.5), rgb(0, 0, 0));
+    }
+    61.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(116.55, 116.55, 116.55), rgb(0, 0, 0));
+    }
+    61.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(117.6, 117.6, 117.6), rgb(0, 0, 0));
+    }
+    61.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(118.65, 118.65, 118.65), rgb(0, 0, 0));
+    }
+    61.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(119.7, 119.7, 119.7), rgb(0, 0, 0));
+    }
+    61.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(120.75, 120.75, 120.75), rgb(0, 0, 0));
+    }
+    61.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(121.8, 121.8, 121.8), rgb(0, 0, 0));
+    }
+    61.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(122.85, 122.85, 122.85), rgb(0, 0, 0));
+    }
+    61.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(123.9, 123.9, 123.9), rgb(0, 0, 0));
+    }
+    61.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(124.95, 124.95, 124.95), rgb(0, 0, 0));
+    }
+    62% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(126, 126, 126), rgb(0, 0, 0));
+    }
+    62.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(127.05, 127.05, 127.05), rgb(0, 0, 0));
+    }
+    62.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(128.1, 128.1, 128.1), rgb(0, 0, 0));
+    }
+    62.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(129.15, 129.15, 129.15), rgb(0, 0, 0));
+    }
+    62.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(130.2, 130.2, 130.2), rgb(0, 0, 0));
+    }
+    62.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(131.25, 131.25, 131.25), rgb(0, 0, 0));
+    }
+    62.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(132.3, 132.3, 132.3), rgb(0, 0, 0));
+    }
+    62.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(133.35, 133.35, 133.35), rgb(0, 0, 0));
+    }
+    62.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(134.4, 134.4, 134.4), rgb(0, 0, 0));
+    }
+    62.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(135.45, 135.45, 135.45), rgb(0, 0, 0));
+    }
+    63% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(136.5, 136.5, 136.5), rgb(0, 0, 0));
+    }
+    63.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(137.55, 137.55, 137.55), rgb(0, 0, 0));
+    }
+    63.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(138.6, 138.6, 138.6), rgb(0, 0, 0));
+    }
+    63.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(139.65, 139.65, 139.65), rgb(0, 0, 0));
+    }
+    63.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(140.7, 140.7, 140.7), rgb(0, 0, 0));
+    }
+    63.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(141.75, 141.75, 141.75), rgb(0, 0, 0));
+    }
+    63.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(142.8, 142.8, 142.8), rgb(0, 0, 0));
+    }
+    63.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(143.85, 143.85, 143.85), rgb(0, 0, 0));
+    }
+    63.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(144.9, 144.9, 144.9), rgb(0, 0, 0));
+    }
+    63.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(145.95, 145.95, 145.95), rgb(0, 0, 0));
+    }
+    64% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(147, 147, 147), rgb(0, 0, 0));
+    }
+    64.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(148.05, 148.05, 148.05), rgb(0, 0, 0));
+    }
+    64.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(149.1, 149.1, 149.1), rgb(0, 0, 0));
+    }
+    64.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(150.15, 150.15, 150.15), rgb(0, 0, 0));
+    }
+    64.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(151.2, 151.2, 151.2), rgb(0, 0, 0));
+    }
+    64.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(152.25, 152.25, 152.25), rgb(0, 0, 0));
+    }
+    64.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(153.3, 153.3, 153.3), rgb(0, 0, 0));
+    }
+    64.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(154.35, 154.35, 154.35), rgb(0, 0, 0));
+    }
+    64.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(155.4, 155.4, 155.4), rgb(0, 0, 0));
+    }
+    64.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(156.45, 156.45, 156.45), rgb(0, 0, 0));
+    }
+    65% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(157.5, 157.5, 157.5), rgb(0, 0, 0));
+    }
+    65.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(158.55, 158.55, 158.55), rgb(0, 0, 0));
+    }
+    65.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(159.6, 159.6, 159.6), rgb(0, 0, 0));
+    }
+    65.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(160.65, 160.65, 160.65), rgb(0, 0, 0));
+    }
+    65.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(161.7, 161.7, 161.7), rgb(0, 0, 0));
+    }
+    65.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(162.75, 162.75, 162.75), rgb(0, 0, 0));
+    }
+    65.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(163.8, 163.8, 163.8), rgb(0, 0, 0));
+    }
+    65.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(164.85, 164.85, 164.85), rgb(0, 0, 0));
+    }
+    65.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(165.9, 165.9, 165.9), rgb(0, 0, 0));
+    }
+    65.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(166.95, 166.95, 166.95), rgb(0, 0, 0));
+    }
+    66% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(168, 168, 168), rgb(0, 0, 0));
+    }
+    66.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(169.05, 169.05, 169.05), rgb(0, 0, 0));
+    }
+    66.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(170.1, 170.1, 170.1), rgb(0, 0, 0));
+    }
+    66.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(171.15, 171.15, 171.15), rgb(0, 0, 0));
+    }
+    66.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(172.2, 172.2, 172.2), rgb(0, 0, 0));
+    }
+    66.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(173.25, 173.25, 173.25), rgb(0, 0, 0));
+    }
+    66.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(174.3, 174.3, 174.3), rgb(0, 0, 0));
+    }
+    66.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(175.35, 175.35, 175.35), rgb(0, 0, 0));
+    }
+    66.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(176.4, 176.4, 176.4), rgb(0, 0, 0));
+    }
+    66.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(177.45, 177.45, 177.45), rgb(0, 0, 0));
+    }
+    67% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(178.5, 178.5, 178.5), rgb(0, 0, 0));
+    }
+    67.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(179.55, 179.55, 179.55), rgb(0, 0, 0));
+    }
+    67.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(180.6, 180.6, 180.6), rgb(0, 0, 0));
+    }
+    67.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(181.65, 181.65, 181.65), rgb(0, 0, 0));
+    }
+    67.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(182.7, 182.7, 182.7), rgb(0, 0, 0));
+    }
+    67.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(183.75, 183.75, 183.75), rgb(0, 0, 0));
+    }
+    67.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(184.8, 184.8, 184.8), rgb(0, 0, 0));
+    }
+    67.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(185.85, 185.85, 185.85), rgb(0, 0, 0));
+    }
+    67.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(186.9, 186.9, 186.9), rgb(0, 0, 0));
+    }
+    67.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(187.95, 187.95, 187.95), rgb(0, 0, 0));
+    }
+    68% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(189, 189, 189), rgb(0, 0, 0));
+    }
+    68.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(190.05, 190.05, 190.05), rgb(0, 0, 0));
+    }
+    68.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(191.1, 191.1, 191.1), rgb(0, 0, 0));
+    }
+    68.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(192.15, 192.15, 192.15), rgb(0, 0, 0));
+    }
+    68.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(193.2, 193.2, 193.2), rgb(0, 0, 0));
+    }
+    68.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(194.25, 194.25, 194.25), rgb(0, 0, 0));
+    }
+    68.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(195.3, 195.3, 195.3), rgb(0, 0, 0));
+    }
+    68.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(196.35, 196.35, 196.35), rgb(0, 0, 0));
+    }
+    68.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(197.4, 197.4, 197.4), rgb(0, 0, 0));
+    }
+    68.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(198.45, 198.45, 198.45), rgb(0, 0, 0));
+    }
+    69% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(199.5, 199.5, 199.5), rgb(0, 0, 0));
+    }
+    69.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(200.55, 200.55, 200.55), rgb(0, 0, 0));
+    }
+    69.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(201.6, 201.6, 201.6), rgb(0, 0, 0));
+    }
+    69.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(202.65, 202.65, 202.65), rgb(0, 0, 0));
+    }
+    69.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(203.7, 203.7, 203.7), rgb(0, 0, 0));
+    }
+    69.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(204.75, 204.75, 204.75), rgb(0, 0, 0));
+    }
+    69.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(205.8, 205.8, 205.8), rgb(0, 0, 0));
+    }
+    69.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(206.85, 206.85, 206.85), rgb(0, 0, 0));
+    }
+    69.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(207.9, 207.9, 207.9), rgb(0, 0, 0));
+    }
+    69.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(208.95, 208.95, 208.95), rgb(0, 0, 0));
+    }
+    70% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(210, 210, 210), rgb(0, 0, 0));
+    }
+    70.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(211.05, 211.05, 211.05), rgb(0, 0, 0));
+    }
+    70.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(212.1, 212.1, 212.1), rgb(0, 0, 0));
+    }
+    70.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(213.15, 213.15, 213.15), rgb(0, 0, 0));
+    }
+    70.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(214.2, 214.2, 214.2), rgb(0, 0, 0));
+    }
+    70.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(215.25, 215.25, 215.25), rgb(0, 0, 0));
+    }
+    70.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(216.3, 216.3, 216.3), rgb(0, 0, 0));
+    }
+    70.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(217.35, 217.35, 217.35), rgb(0, 0, 0));
+    }
+    70.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(218.4, 218.4, 218.4), rgb(0, 0, 0));
+    }
+    70.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(219.45, 219.45, 219.45), rgb(0, 0, 0));
+    }
+    71% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(220.5, 220.5, 220.5), rgb(0, 0, 0));
+    }
+    71.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(221.55, 221.55, 221.55), rgb(0, 0, 0));
+    }
+    71.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(222.6, 222.6, 222.6), rgb(0, 0, 0));
+    }
+    71.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(223.65, 223.65, 223.65), rgb(0, 0, 0));
+    }
+    71.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(224.7, 224.7, 224.7), rgb(0, 0, 0));
+    }
+    71.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(225.75, 225.75, 225.75), rgb(0, 0, 0));
+    }
+    71.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(226.8, 226.8, 226.8), rgb(0, 0, 0));
+    }
+    71.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(227.85, 227.85, 227.85), rgb(0, 0, 0));
+    }
+    71.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(228.9, 228.9, 228.9), rgb(0, 0, 0));
+    }
+    71.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(229.95, 229.95, 229.95), rgb(0, 0, 0));
+    }
+    72% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(231, 231, 231), rgb(0, 0, 0));
+    }
+    72.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(232.05, 232.05, 232.05), rgb(0, 0, 0));
+    }
+    72.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(233.1, 233.1, 233.1), rgb(0, 0, 0));
+    }
+    72.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(234.15, 234.15, 234.15), rgb(0, 0, 0));
+    }
+    72.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(235.2, 235.2, 235.2), rgb(0, 0, 0));
+    }
+    72.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(236.25, 236.25, 236.25), rgb(0, 0, 0));
+    }
+    72.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(237.3, 237.3, 237.3), rgb(0, 0, 0));
+    }
+    72.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(238.35, 238.35, 238.35), rgb(0, 0, 0));
+    }
+    72.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(239.4, 239.4, 239.4), rgb(0, 0, 0));
+    }
+    72.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(240.45, 240.45, 240.45), rgb(0, 0, 0));
+    }
+    73% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(241.5, 241.5, 241.5), rgb(0, 0, 0));
+    }
+    73.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(242.55, 242.55, 242.55), rgb(0, 0, 0));
+    }
+    73.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(243.6, 243.6, 243.6), rgb(0, 0, 0));
+    }
+    73.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(244.65, 244.65, 244.65), rgb(0, 0, 0));
+    }
+    73.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(245.7, 245.7, 245.7), rgb(0, 0, 0));
+    }
+    73.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(246.75, 246.75, 246.75), rgb(0, 0, 0));
+    }
+    73.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(247.8, 247.8, 247.8), rgb(0, 0, 0));
+    }
+    73.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(248.85, 248.85, 248.85), rgb(0, 0, 0));
+    }
+    73.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(249.9, 249.9, 249.9), rgb(0, 0, 0));
+    }
+    73.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(250.95, 250.95, 250.95), rgb(0, 0, 0));
+    }
+    74% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(252, 252, 252), rgb(0, 0, 0));
+    }
+    74.1% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(253.05, 253.05, 253.05), rgb(0, 0, 0));
+    }
+    74.2% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(254.1, 254.1, 254.1), rgb(0, 0, 0));
+    }
+    74.3% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(255.15, 255.15, 255.15), rgb(0, 0, 0));
+    }
+    74.4% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(256.2, 256.2, 256.2), rgb(0, 0, 0));
+    }
+    74.5% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(257.25, 257.25, 257.25), rgb(0, 0, 0));
+    }
+    74.6% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(258.3, 258.3, 258.3), rgb(0, 0, 0));
+    }
+    74.7% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(259.35, 259.35, 259.35), rgb(0, 0, 0));
+    }
+    74.8% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(260.4, 260.4, 260.4), rgb(0, 0, 0));
+    }
+    74.9% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(261.45, 261.45, 261.45), rgb(0, 0, 0));
+    }
+    75% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
+        transform: translateY(0);
+    }
+    100% {
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
+        transform: translateY(-238.39px);
+    }
+}
+
+.container .welcome_animation .title_1_div .title_1_animation {
+    animation: title_1_animation 20s;
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 60px;
+}
+@keyframes title_1_animation {
+    25% {
+        color: rgba(255, 255, 255, 0);
+    }
+    37.5% {
+        color: rgba(255, 255, 255, 255);
+    }
+    100% {
+        color: rgba(0, 0, 0, 255);
+    }
+}
